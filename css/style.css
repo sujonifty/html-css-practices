@@ -1,0 +1,50 @@
+/* Universal selector is  */
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+/* Selecting element by tag name  */
+h1{
+    font-weight: bold;
+    font-size: x-large;
+    color:dodgerblue;
+    margin: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    text-align: center;
+   
+}
+
+/* Selecting element by class name  */
+.para{
+    margin: 0.5rem;
+    border: 0.10rem solid yellow;
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    text-align: justify;
+    height: 120px;
+    width: auto;
+
+
+}
+
+/* Selecting element by id name  */
+#para1{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#para2{
+    background-color:coral;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+#para3{
+    background-color:fuchsia;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
+    font-weight: 500;
+    
+}
