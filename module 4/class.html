@@ -1,68 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html-5 practices</title>
     <style>
-        label{
+        body{
+            text-align: center;
+        }
+        label {
             display: block;
             margin-bottom: 10px;
         }
-        table{
+
+        table {
             border-collapse: collapse;
             border: 2px solid yellowgreen;
-        }   
-        td, th{
-            border: 1px solid blue; 
+            
+        }
+
+        td,
+        th {
+            border: 1px solid blue;
             padding: 5px;
             text-align: center;
         }
+
     </style>
 </head>
+
 <body>
     <h1>Exploring Video Tag.</h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QoaDkejcHSc?si=nF7PDYiiDNkNypll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QoaDkejcHSc?si=nF7PDYiiDNkNypll"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
 
     <time datetime="22-01-2024"> 22 January, 2024</time>
     <figure>
         <img width="400px" src="../images/photo-1700700743689-dc2d5f5b8aad.avif" alt="2024 year">
         <figcaption>Happy New Year</figcaption>
     </figure>
-    <h1>Exploring Form tag.</h1> 
+    <h1>Exploring Form tag.</h1>
     <form action="#">
-        <label for="name">   Your Name:
+        <label for="name"> Your Name:
             <input type="text" name="name" placeholder="Enter your name...">
         </label>
-        <label for="email">   Your Email:
+        <label for="email"> Your Email:
             <input type="email" name="email" placeholder="Enter your email...">
         </label>
-        <label for="password">   Your Password:
+        <label for="password"> Your Password:
             <input type="password" name="password" placeholder="Enter your password...">
         </label>
         <fieldset>
             <legend>Pick one pitha.</legend>
             <label for="puri">
-                <input type="radio" name="pitha" >puri.
+                <input type="radio" name="pitha">puri.
             </label>
-            <label for="vapa">  
-                <input type="radio" name="pitha" >vapa.
+            <label for="vapa">
+                <input type="radio" name="pitha">vapa.
             </label>
             <label for="puli">
-                <input type="radio" name="pitha" >puli.
+                <input type="radio" name="pitha">puli.
             </label>
         </fieldset>
 
         <fieldset>
             <legend>Pick one pitha.</legend>
             <label for="sutki">
-                <input type="checkbox" name="vorta" >shutki.
+                <input type="checkbox" name="vorta">shutki.
             </label>
-            <label for="chili">  
-                <input type="checkbox" name="vorta" >chili.
+            <label for="chili">
+                <input type="checkbox" name="vorta">chili.
             </label>
             <label for="shurisa">
-                <input type="checkbox" name="vorta" >surisa.
+                <input type="checkbox" name="vorta">surisa.
             </label>
         </fieldset>
 
@@ -92,7 +105,7 @@
                 Salary
             </th>
         </thead>
-          
+
         <tbody>
             <tr>
                 <td>1</td>
@@ -126,5 +139,120 @@
             </tr>
         </tfoot>
     </table>
+
+    <section>
+        <div>
+            <h1>Home Works: Module-4 </h1>
+            <label for="search">search your image here:
+                <input type="search" placeholder="kung Fu Panda">
+            </label>
+        </div>
+
+        <div>
+            <img width="300px" src="../images/kung fu panda.jpg" alt="">
+            <figcaption><a target="_blank" href="https://bit.ly/4aJmUEi">For more click here.</a></figcaption>
+        </div>
+
+        <div>
+            <h1>Feedback Form</h1>
+            <form action="#">
+                <label for="name">Name:<br>
+                    <input type="text">
+                </label>
+                <label for="date">Date:<br>
+                    <input type="date">
+                </label>
+                <label for="comment"> Comment: <br>
+                    <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                </label>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <h1>Exploring Feedback form .</h1>
+        <div>
+            <h4>We value your Feedback.</h4>
+            <p>Please complete the following form<br> and help us to improve our service.</p>
+            <form action="#">
+                <label for="feeling">How satisfied to participate our contest: <br>
+                    <input type="radio" name="feeling">Satisfied.
+                    <input type="radio" name="feeling">Excellent.
+                    <input type="radio" name="feeling">Normal.
+                    <input type="radio" name="feeling">Disappointed.
+                </label>
+
+                <label for=""> Your Feedback:
+                    <select name="" id="">
+                        <option value="">Good</option>
+                        <option value="">Better</option>
+                        <option value="">Best</option>
+                        <option value="">Unsatisfied</option>
+                    </select>
+                </label>
+                <label for="comment"> Tell us how we can improve: <br>
+                    <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+                </label>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h1>Table Tennis Tournament</h1>
+            <table>
+                <caption>Tournament Schedule & Result.</caption>
+                <thead>
+                    <tr>
+                        <th>Round-1</th>
+                        <th>Player A</th>
+                        <th>Player B</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Match 1</td>
+                        <td>Jhon</td>
+                        <td>Alice</td>
+                    </tr>
+                    <tr>
+                        <td>Match 2</td>
+                        <td>Eric</td>
+                        <td>Fedric</td>
+                    </tr>
+                    <tr>
+                        <th>Round-2</th>
+                        <th>Player C</th>
+                        <th>Player D</th>
+                    </tr>
+                    <tr>
+                        <td>Match 3</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                    </tr>
+                    <tr>
+                        <td>Match 4</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                    </tr>
+                    <tr>
+                        <th>Final</th>
+                        <th>Winner of match 3</th>
+                        <th>Winner of match 3</th>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Champion</td>
+                        <td>TBD</td>
+                        <td>TBD</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </section>
 </body>
+
 </html>
