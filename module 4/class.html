@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html-5 practices</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        table{
+            border-collapse: collapse;
+            border: 2px solid yellowgreen;
+        }   
+        td, th{
+            border: 1px solid blue; 
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exploring Video Tag.</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QoaDkejcHSc?si=nF7PDYiiDNkNypll" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <time datetime="22-01-2024"> 22 January, 2024</time>
+    <figure>
+        <img width="400px" src="../images/photo-1700700743689-dc2d5f5b8aad.avif" alt="2024 year">
+        <figcaption>Happy New Year</figcaption>
+    </figure>
+    <h1>Exploring Form tag.</h1> 
+    <form action="#">
+        <label for="name">   Your Name:
+            <input type="text" name="name" placeholder="Enter your name...">
+        </label>
+        <label for="email">   Your Email:
+            <input type="email" name="email" placeholder="Enter your email...">
+        </label>
+        <label for="password">   Your Password:
+            <input type="password" name="password" placeholder="Enter your password...">
+        </label>
+        <fieldset>
+            <legend>Pick one pitha.</legend>
+            <label for="puri">
+                <input type="radio" name="pitha" >puri.
+            </label>
+            <label for="vapa">  
+                <input type="radio" name="pitha" >vapa.
+            </label>
+            <label for="puli">
+                <input type="radio" name="pitha" >puli.
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pick one pitha.</legend>
+            <label for="sutki">
+                <input type="checkbox" name="vorta" >shutki.
+            </label>
+            <label for="chili">  
+                <input type="checkbox" name="vorta" >chili.
+            </label>
+            <label for="shurisa">
+                <input type="checkbox" name="vorta" >surisa.
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Special instruction.</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+
+    <h1>Exploring Table Tag</h1>
+    <table>
+        <caption>Employee salary data.</caption>
+        <thead>
+            <th>
+                No
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Company
+            </th>
+            <th>
+                Salary
+            </th>
+        </thead>
+          
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>B.Gates</td>
+                <td>Microsoft</td>
+                <td>$12000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bill </td>
+                <td>soft</td>
+                <td>$15000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sujon</td>
+                <td>Mybook</td>
+                <td>$13000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Samrat</td>
+                <td>Macrosoft</td>
+                <td>$20000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Employee = 4</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
