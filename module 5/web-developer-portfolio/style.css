@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
+    background-color: #fff;
 }
 
 nav {
@@ -153,10 +154,12 @@ main {
 
 /* ------skill section-------- */
 .skill{
-    width: 260px;
-    height: 370px;
-    margin: 5px;
-    padding: 4px;
+    margin: 12px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow:0px 5px 10px 0px gray;
+   
 }
 .skill-img {
     width: 44px;
@@ -167,13 +170,11 @@ main {
 
 .skill-title {
     color: #181818;
-    
     font-size: 20px;
     font-weight: 700;
 }
 
 .skill-des {
-    text-align: justify;
     color: #757575;
     font-size: 16px;
     font-weight: 400;
