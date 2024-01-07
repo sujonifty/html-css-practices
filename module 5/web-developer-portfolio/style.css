@@ -4,7 +4,7 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
     padding: 0px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 nav {
@@ -27,6 +27,7 @@ nav {
     border-radius: 5px;
     background: #FD6E0A;
     padding: 10px 15px;
+    
 }
 
 #nav-title {
@@ -132,7 +133,7 @@ main {
     font-weight: 400;
 }
 
-.about-info-container,.skill-container {
+.about-info-container,.skill-container, .resume {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -145,7 +146,7 @@ main {
 }
 
 /* ------What I do------- */
-.section-des {
+.section-des, .resume-des {
     color: #757575;
     text-align: justify;
     font-size: 14px;
@@ -168,7 +169,7 @@ main {
 
 }
 
-.skill-title {
+.skill-title, .resume-title {
     color: #181818;
     font-size: 20px;
     font-weight: 700;
@@ -178,4 +179,11 @@ main {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
+}
+/* ------------Resume Section-------- */
+
+
+.footer{
+    background: #FFF8F3;
+    display: flex;
 }
